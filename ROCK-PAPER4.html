@@ -279,6 +279,9 @@
         function showEndMessage(text, bgColor) {
             const messageDiv = document.createElement("div");
             messageDiv.style.position = "fixed";
+            messageDiv.style.display = "flex";
+            messageDiv.style.justifyContent = "center";
+            messageDiv.style.alignItems = "center";
             messageDiv.style.top = "0";
             messageDiv.style.left = "0";
             messageDiv.style.width = "100%";
